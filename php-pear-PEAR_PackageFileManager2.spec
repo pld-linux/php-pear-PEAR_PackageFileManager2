@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	PEAR Package FileManager
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.4
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	08a02527733f956f45f16bf9a1a52460
+# Source0-md5:	44c6efe61fc3465641d98591d57c60a3
 URL:		http://pear.php.net/package/PEAR_PackageFileManager2/
 BuildRequires:	php-pear-PEAR >= 1:1.8.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -70,7 +70,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc install.log
-%doc optional-packages.txt
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/PEAR/PackageFileManager2.php
 
