@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	PEAR_PackageFileManager2
-%include	/usr/lib/rpm/macros.php
 Summary:	PEAR Package FileManager
 Name:		php-pear-%{_pearname}
 Version:	1.0.4
